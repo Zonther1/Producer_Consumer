@@ -3,7 +3,7 @@
   <summary>What is it about?</summary>
   <p>This program is to understand how semaphores and threading works.</p>
   <p>It controlls when values are placed into the buffer (producer) and values taken out (consumer).</p>
-  <p>This program works best on Linux</p>
+  <p>This program works best on Linux.</p>
 </details>
 <details>
   <summary>How to run the program</summary>
