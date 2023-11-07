@@ -17,7 +17,7 @@
 /*
 * Setting up global variables that can work in the program
 */
-# define BUFFER_SIZE 2     // Setting the size of the buffer
+#define BUFFER_SIZE 2     // Setting the size of the buffer
 int buffer[BUFFER_SIZE];    // Creating the buffer
 int next_in = 0;            // Keep track of the location of the producer
 int next_out = 0;           // Keep track of the location of the consumer
