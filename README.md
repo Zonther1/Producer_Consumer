@@ -6,9 +6,9 @@
 </details>
 <details>
   <summary>How to run the program</summary>
-  1.  Download the "Program_Files" and place it in a location on your PC.
-  2.  In terminal, set your directory to location of "Program_Files".
-  3.  Use gcc to complie the source code.
+  1.  Download the "Program_Files" and place it in a location on your PC.<br>
+  2.  In terminal, set your directory to location of "Program_Files".<br>
+  3.  Use gcc to complie the source code.<br>
   ```
   $ gcc producer.c -pthread -lrt -o producer
   $ gcc consumer.c -pthread -lrt -o consumer
