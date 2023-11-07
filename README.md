@@ -6,11 +6,17 @@
 </details>
 <details>
   <summary>How to run the program</summary>
-  1.  Download the "Program_Files" and place it in a location on your PC.<br>
-  2.  In terminal, set your directory to location of "Program_Files".<br>
-  3.  Use gcc to complie the source code.<br>
-    $ gcc producer.c -pthread -lrt -o producer<br>
-    $ gcc consumer.c -pthread -lrt -o consumer<br>
-  4. Run both programs at the same time to see the code working.<br>
-  $ ./producer & ./consumer &<br>
+  <ol>
+    <li>Download the "Program_Files" and place it in a location on your PC.</li>
+    <li>In terminal, set your directory to location of "Program_Files".</li>
+    <li>Use gcc to complie the source code.</li>
+      <ul>
+        <li>$ gcc producer.c -pthread -lrt -o producer</li>
+        <li>$ gcc consumer.c -pthread -lrt -o consumer</li>
+      </ul>
+    <li>Run both programs at the same time to see the code working.</li>
+    <ul>
+      <li>$ ./producer & ./consumer &</li>
+    </ul>
+  </ol>
 </details>
