@@ -23,5 +23,7 @@
 <details>
   <summary>What didn't work well.</summary>
   <p>This is the first time working with semaphores and pthread to get both programs to work with each other.</p>
-  <p>I had a lot of issues trying to get the producer to come up first because it kept on going to the consumer portion first</p>
+  <p>I had a lot of issues trying to get the producer to come up first because it kept on going to the consumer portion first.</p>
+  <p>I also had the issue of the producer and the consumer running at the same time. I was able to fix this by using sleep() in the consumer portion only.</p>
+  <p>I was not able to get the consumer to wait in the begining and still working on trying to fix this problem.</p>
 </details>
