@@ -11,18 +11,19 @@
     <li>In terminal, set your directory to location of "Program_Files".</li>
     <li>Use gcc to complie the source code.</li>
       <ul>
-        <li>$ gcc producer.c -pthread -lrt -o producer</li>
-        <li>$ gcc consumer.c -pthread -lrt -o consumer</li>
+        <li><code>$ gcc producer.c -pthread -lrt -o producer</code></li>
+        <li><code>$ gcc consumer.c -pthread -lrt -o consumer</code></li>
       </ul>
     <li>Run both programs at the same time to see the code working.</li>
     <ul>
-      <li>$ ./producer & ./consumer &</li>
+      <li><code>$ ./producer & ./consumer &</code></li>
     </ul>
   </ol>
 </details>
 <details>
   <summary>What didn't work well.</summary>
   <p>This is the first time working with semaphores and pthread to get both programs to work with each other.</p>
+  <p>This was the first time using C programing language in a very long time so I had to relearn it to get the program up and running.</p>
   <p>I had a lot of issues trying to get the producer to come up first because it kept on going to the consumer portion first.</p>
   <p>I also had the issue of the producer and the consumer running at the same time. I was able to fix this by using sleep() in the consumer portion only.</p>
   <p>I was not able to get the consumer to wait in the begining and still working on trying to fix this problem.</p>
