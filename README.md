@@ -27,5 +27,5 @@
   <p>This was the first time using C programing language in a very long time so I had to relearn it to get the program up and running.</p>
   <p>I had a lot of issues trying to get the producer to come up first because it kept on going to the consumer portion first.</p>
   <p>I also had the issue of the producer and the consumer running at the same time. I was able to fix this by using sleep() in the consumer portion only.</p>
-  <p>I was not able to get the consumer to wait in the begining and still working on trying to fix this problem.</p>
+  <p>I was not able to get the consumer to wait at the start up of the program. I am still working on trying to fix this problem.</p>
 </details>
