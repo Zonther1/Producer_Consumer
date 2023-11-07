@@ -1,8 +1,8 @@
 # Producer_Consumer_Problem
 <details>
   <summary>What is it about?</summary>
-  This program is to understand how semaphores and threading works.
-  It controlls when values are placed into the buffer (producer) and values taken out (consumer).
+  <p>This program is to understand how semaphores and threading works.</p>
+  <p>It controlls when values are placed into the buffer (producer) and values taken out (consumer).</p>
 </details>
 <details>
   <summary>How to run the program</summary>
@@ -19,4 +19,9 @@
       <li>$ ./producer & ./consumer &</li>
     </ul>
   </ol>
+</details>
+<details>
+  <summary>What didn't work well.</summary>
+  <p>This is the first time working with semaphores and pthread to get both programs to work with each other.</p>
+  <p>I had a lot of issues trying to get the producer to come up first because it kept on going to the consumer portion first</p>
 </details>
