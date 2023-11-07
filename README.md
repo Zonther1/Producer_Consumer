@@ -29,3 +29,8 @@
   <p>I also had the issue of the producer and the consumer running at the same time. I was able to fix this by using sleep() in the consumer portion only.</p>
   <p>I was not able to get the consumer to wait at the start up of the program. I am still working on trying to fix this problem.</p>
 </details>
+<details>
+  <summery>Buffer size to small?</summery>
+  <p>If you want to change the size of the buffer, you can change it in the producer.c and consumer.c files.</p>
+  <p>Look for <code>#define BUFFER_SIZE 2</code> and change the number on BOTH programs to be the same.</p>
+</details>
