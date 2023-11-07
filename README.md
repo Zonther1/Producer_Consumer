@@ -30,7 +30,7 @@
   <p>I was not able to get the consumer to wait at the start up of the program. I am still working on trying to fix this problem.</p>
 </details>
 <details>
-  <summery>Buffer size to small?</summery>
+  <summary>Buffer size to small?</summary>
   <p>If you want to change the size of the buffer, you can change it in the producer.c and consumer.c files.</p>
   <p>Look for <code>#define BUFFER_SIZE 2</code> and change the number on BOTH programs to be the same.</p>
 </details>
